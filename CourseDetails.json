@@ -1,0 +1,13 @@
+{
+    "_id" : ObjectId("5d17b16178458c8c40de128e"),
+    "CourseName" : "Physics"
+}
+{
+    "_id" : ObjectId("5d17b18978458c8c40de12a3"),
+    "CourseName" : "Chemistry"
+}
+{
+    "_id" : ObjectId("5d17b1b078458c8c40de12b7"),
+    "CourseName" : "Mathematics"
+}
+© 2019 GitHub, Inc.
