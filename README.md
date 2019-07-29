@@ -7,5 +7,5 @@ Below are the Details for POST and GET request each:
   * It is for finding details of Student using CourseName as query parameter
 
 * POST Requests (Python File - InsertStudent.py):
-  * It is for insert new Student record
+  * It is for inserting new Student record
 
