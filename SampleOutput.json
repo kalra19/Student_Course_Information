@@ -1,0 +1,38 @@
+1. Below output shows when we query with CourseName as "Physics": http://127.0.0.1:5000/course?name=Physics
+
+{
+    "ListofStudents": [
+        {
+            "_id": "5d17b45778458c8c40de134a",
+            "FirstName": "Donald",
+            "LastName": "Barker",
+            "CourseId": [
+                "5d17b16178458c8c40de128e"
+            ]
+        },
+        {
+            "_id": "5d17b53678458c8c40de138f",
+            "FirstName": "Suzan",
+            "LastName": "Jones",
+            "CourseId": [
+                "5d17b16178458c8c40de128e",
+                "5d17b1b078458c8c40de12b7"
+            ]
+        },
+        {
+            "_id": "5d17b5b978458c8c40de13bd",
+            "FirstName": "Barbra",
+            "LastName": "Peters",
+            "CourseId": [
+                "5d17b16178458c8c40de128e",
+                "5d17b18978458c8c40de12a3"
+            ]
+        }
+    ]
+}
+
+2. Below output shows when we query with CourseName which Doesnot exist: http://127.0.0.1:5000/course?name=English
+
+{
+    "message": "The Course Doesnot Exit, Please give a valid Course Name"
+}
