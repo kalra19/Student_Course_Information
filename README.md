@@ -1,5 +1,5 @@
-# Student_Course_Information
-This POC is implementted using Python Flask and datatbase used in MongoDB. This POC is implemented for POST and GET request.
+# Student Course Information
+This POC is implementted using Python Flask and datatbase used in MongoDB. This POC is implemented for POST and GET request. The Json File for Course is "CourseDetails.json" and for Student is "Student.json".
 __________________________________________________________________________________________________________________________
 Below are the Details for POST and GET request each:
 
